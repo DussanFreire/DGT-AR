@@ -115,7 +115,7 @@ Necesito sacar videos con los holos para esta parte
 
 ## Install and run the VC Code Extension 🖥️
 
-To install and run the extension in VS Code, navigate to the following  GitHub repository and follow the instructions provided in the README file. [VS code extension](https://github.com/DussanFreire/DGT-EXT)
+To install and run the extension in VS Code, navigate to the following  GitHub repository and follow the instructions provided in the README file. [VS code extension](https://github.com/DussanFreire/DGT-AR_VS-code-extension)
 
 ## Running DGT-AR
 To run DGT-AR successfully, it is essential to start the three parts in the following order:
