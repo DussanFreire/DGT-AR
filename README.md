@@ -113,7 +113,7 @@ By following these steps, you will be able to deploy the application on your Hol
 
 Necesito sacar videos con los holos para esta parte
 
-## Install and run the VC Code Extension 🖥️
+## Install and run the VS Code Extension 🖥️
 
 To install and run the extension in VS Code, navigate to the following  GitHub repository and follow the instructions provided in the README file. [VS code extension](https://github.com/DussanFreire/DGT-AR_VS-code-extension)
 
