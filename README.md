@@ -111,9 +111,14 @@ By following these steps, you will be able to deploy the application on your Hol
 
 ## Running the AR APP in HoloLens 2 🏃‍♂️
 
-Necesito sacar videos con los holos para esta parte
+To run the application on the Hololens 2, follow these steps:
 
-## Install and run the VS Code Extension 🖥️
+1. Open the main menu of the Hololens 2.
+2. Search for the application called "DGT-AR."
+3. Open the application.
+<p align="center" style="margin-top: 10px;">Image 6, DGT-AR in the HoloLens 2 menu</p>
+<p align="center"><img src="./readme-images/menu.png" alt="isolated" /></p>
+
 
 To install and run the extension in VS Code, navigate to the following  GitHub repository and follow the instructions provided in the README file. [VS code extension](https://github.com/DussanFreire/DGT-AR_VS-code-extension)
 
