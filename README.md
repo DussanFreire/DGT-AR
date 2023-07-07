@@ -119,7 +119,7 @@ To run the application on the Hololens 2, follow these steps:
 <p align="center" style="margin-top: 10px;">Image 6, DGT-AR in the HoloLens 2 menu</p>
 <p align="center"><img src="./readme-images/menu.png" alt="isolated" /></p>
 
-
+## Install and run the VS Code Extension 🖥️
 To install and run the extension in VS Code, navigate to the following  GitHub repository and follow the instructions provided in the README file. [VS code extension](https://github.com/DussanFreire/DGT-AR_VS-code-extension)
 
 ## Running DGT-AR
