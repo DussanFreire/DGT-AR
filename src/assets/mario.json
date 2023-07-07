@@ -1,0 +1,1284 @@
+{
+    "actions": {
+        "filterUsed": false,
+        "resetUsed": false,
+        "rotateH": false,
+        "rotateV": false,
+        "sizeChanged": false,
+        "xBackward": false,
+        "xForward": false,
+        "yBackward": false,
+        "yForward": false,
+        "zBackward": false,
+        "zForward": false
+    },
+    "filters": [
+        {
+            "background": "#000000",
+            "color": "#ff1000",
+            "name": "js"
+        },
+        {
+            "background": "#ffffff",
+            "color": "#3A8EEF",
+            "name": "entities"
+        },
+        {
+            "background": "#000000",
+            "color": "#FFFF00",
+            "name": "loaders"
+        },
+        {
+            "background": "#000000",
+            "color": "#ffffff",
+            "name": "traits"
+        },
+        {
+            "background": "#000000",
+            "color": "#00FF2F",
+            "name": "input"
+        },
+        {
+            "background": "#ffffff",
+            "color": "#9A183A",
+            "name": "layers"
+        },
+        {
+            "background": "#000000",
+            "color": "#ff00bd",
+            "name": "polyfills"
+        },
+        {
+            "background": "#000000",
+            "color": "#ff8400",
+            "name": "css"
+        }
+    ],
+    "graphName": "es6-mario",
+    "nodes": [
+        {
+            "background": "#000000",
+            "childIds": [
+                4,
+                26
+            ],
+            "color": "#ff1000",
+            "id": 0,
+            "links": [
+                {
+                    "source": 0,
+                    "target": 4,
+                    "visible": true
+                },
+                {
+                    "source": 0,
+                    "target": 26,
+                    "visible": true
+                }
+            ],
+            "name": "js/AudioBoard.js",
+            "visible": true,
+            "x": 0.37065488980302425,
+            "y": -0.8357190054362795,
+            "z": 0.2621025809014189
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                4
+            ],
+            "color": "#ff1000",
+            "id": 1,
+            "links": [
+                {
+                    "source": 1,
+                    "target": 4,
+                    "visible": true
+                }
+            ],
+            "name": "js/BoundingBox.js",
+            "visible": true,
+            "x": -0.0822218474363101,
+            "y": -0.3015802789130279,
+            "z": -0.7343604449826421
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#ff1000",
+            "id": 2,
+            "links": [
+                {
+                    "source": 2,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "js/Camera.js",
+            "visible": true,
+            "x": -0.44285887799916956,
+            "y": 0.3619910928108525,
+            "z": -0.5453184364817637
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                2,
+                4,
+                39,
+                46
+            ],
+            "color": "#ff1000",
+            "id": 3,
+            "links": [
+                {
+                    "source": 3,
+                    "target": 2,
+                    "visible": true
+                },
+                {
+                    "source": 3,
+                    "target": 4,
+                    "visible": true
+                },
+                {
+                    "source": 3,
+                    "target": 39,
+                    "visible": true
+                },
+                {
+                    "source": 3,
+                    "target": 46,
+                    "visible": true
+                }
+            ],
+            "name": "js/math.js",
+            "visible": true,
+            "x": -0.5990114074142728,
+            "y": 0.36897687049375666,
+            "z": 0.2814327303912646
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                10,
+                17,
+                20,
+                21,
+                22,
+                23,
+                24,
+                25,
+                27,
+                28,
+                29,
+                44,
+                45,
+                46,
+                49
+            ],
+            "color": "#ff1000",
+            "id": 4,
+            "links": [
+                {
+                    "source": 4,
+                    "target": 10,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 17,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 20,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 21,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 22,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 23,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 24,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 25,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 27,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 28,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 29,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 44,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 45,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 46,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 49,
+                    "visible": true
+                }
+            ],
+            "name": "js/Entity.js",
+            "visible": true,
+            "x": -0.12703681380572263,
+            "y": 0.03242061683918072,
+            "z": 0.16353497630758948
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                4
+            ],
+            "color": "#ff1000",
+            "id": 5,
+            "links": [
+                {
+                    "source": 5,
+                    "target": 4,
+                    "visible": true
+                }
+            ],
+            "name": "js/EventEmitter.js",
+            "visible": true,
+            "x": 0.7382074562685093,
+            "y": 0.7322154293332137,
+            "z": 0.2644675817524808
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                7
+            ],
+            "color": "#ff1000",
+            "id": 6,
+            "links": [
+                {
+                    "source": 6,
+                    "target": 7,
+                    "visible": true
+                }
+            ],
+            "name": "js/EntityCollider.js",
+            "visible": true,
+            "x": 0.3541086894141976,
+            "y": -0.6902203129868107,
+            "z": -0.19290424666250627
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                39
+            ],
+            "color": "#ff1000",
+            "id": 7,
+            "links": [
+                {
+                    "source": 7,
+                    "target": 39,
+                    "visible": true
+                }
+            ],
+            "name": "js/Level.js",
+            "visible": true,
+            "x": -0.6820002392258228,
+            "y": -0.06600721720970171,
+            "z": -0.5791680615522123
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                7
+            ],
+            "color": "#ff1000",
+            "id": 8,
+            "links": [
+                {
+                    "source": 8,
+                    "target": 7,
+                    "visible": true
+                }
+            ],
+            "name": "js/compositor.js",
+            "visible": true,
+            "x": -0.541362992145696,
+            "y": 0.2758639042222434,
+            "z": -0.6417753902990263
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                7
+            ],
+            "color": "#ff1000",
+            "id": 9,
+            "links": [
+                {
+                    "source": 9,
+                    "target": 7,
+                    "visible": true
+                }
+            ],
+            "name": "js/MusicController.js",
+            "visible": true,
+            "x": -0.7378017472959346,
+            "y": -0.3999501916458938,
+            "z": -0.2825446205264868
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                7
+            ],
+            "color": "#ff1000",
+            "id": 10,
+            "links": [
+                {
+                    "source": 10,
+                    "target": 7,
+                    "visible": true
+                }
+            ],
+            "name": "js/TileCollider.js",
+            "visible": true,
+            "x": -0.04605379505430303,
+            "y": -0.7190964358877648,
+            "z": 0.25285642181817314
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                10,
+                33
+            ],
+            "color": "#ff1000",
+            "id": 11,
+            "links": [
+                {
+                    "source": 11,
+                    "target": 10,
+                    "visible": true
+                },
+                {
+                    "source": 11,
+                    "target": 33,
+                    "visible": true
+                }
+            ],
+            "name": "js/TileResolver.js",
+            "visible": true,
+            "x": 0.787225918344686,
+            "y": 0.07463143542629362,
+            "z": 0.13109433347987565
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                40
+            ],
+            "color": "#ff1000",
+            "id": 12,
+            "links": [
+                {
+                    "source": 12,
+                    "target": 40,
+                    "visible": true
+                }
+            ],
+            "name": "js/MusicPlayer.js",
+            "visible": true,
+            "x": 0.7855792137404799,
+            "y": 0.3592892557510688,
+            "z": -0.5183954485462184
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                18,
+                38
+            ],
+            "color": "#ff1000",
+            "id": 13,
+            "links": [
+                {
+                    "source": 13,
+                    "target": 18,
+                    "visible": true
+                },
+                {
+                    "source": 13,
+                    "target": 38,
+                    "visible": true
+                }
+            ],
+            "name": "js/SpriteSheet.js",
+            "visible": true,
+            "x": 0.2659593736418113,
+            "y": 0.7791292861243856,
+            "z": 0.3472624811965863
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#ff1000",
+            "id": 14,
+            "links": [
+                {
+                    "source": 14,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "js/Timer.js",
+            "visible": true,
+            "x": 0.7300887143383269,
+            "y": -0.486639400248128,
+            "z": -0.038814552273402615
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                18
+            ],
+            "color": "#ff1000",
+            "id": 15,
+            "links": [
+                {
+                    "source": 15,
+                    "target": 18,
+                    "visible": true
+                }
+            ],
+            "name": "js/anim.js",
+            "visible": true,
+            "x": 0.08574681716679733,
+            "y": -0.20174197316876924,
+            "z": 1.0
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#ff1000",
+            "id": 16,
+            "links": [
+                {
+                    "source": 16,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "js/entities.js",
+            "visible": true,
+            "x": -0.21373968808294252,
+            "y": 0.6418518262873437,
+            "z": -0.1382460897036347
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                16
+            ],
+            "color": "#3A8EEF",
+            "id": 17,
+            "links": [
+                {
+                    "source": 17,
+                    "target": 16,
+                    "visible": true
+                }
+            ],
+            "name": "entities/Goomba.js",
+            "visible": true,
+            "x": -0.5421305569121151,
+            "y": 0.34199121394047827,
+            "z": 0.7332084565966658
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                17,
+                24,
+                25,
+                39
+            ],
+            "color": "#FFFF00",
+            "id": 18,
+            "links": [
+                {
+                    "source": 18,
+                    "target": 17,
+                    "visible": true
+                },
+                {
+                    "source": 18,
+                    "target": 24,
+                    "visible": true
+                },
+                {
+                    "source": 18,
+                    "target": 25,
+                    "visible": true
+                },
+                {
+                    "source": 18,
+                    "target": 39,
+                    "visible": true
+                }
+            ],
+            "name": "loaders/sprite.js",
+            "visible": true,
+            "x": -0.16646844053752746,
+            "y": -0.1361017407261926,
+            "z": 0.14219092960056778
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                18,
+                26,
+                38,
+                39,
+                40,
+                41
+            ],
+            "color": "#ff1000",
+            "id": 19,
+            "links": [
+                {
+                    "source": 19,
+                    "target": 18,
+                    "visible": true
+                },
+                {
+                    "source": 19,
+                    "target": 26,
+                    "visible": true
+                },
+                {
+                    "source": 19,
+                    "target": 38,
+                    "visible": true
+                },
+                {
+                    "source": 19,
+                    "target": 39,
+                    "visible": true
+                },
+                {
+                    "source": 19,
+                    "target": 40,
+                    "visible": true
+                },
+                {
+                    "source": 19,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "js/loader.js",
+            "visible": true,
+            "x": 0.021824593436981333,
+            "y": 0.07410746113628845,
+            "z": 0.010885817028328401
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                17,
+                24,
+                25
+            ],
+            "color": "#ffffff",
+            "id": 20,
+            "links": [
+                {
+                    "source": 20,
+                    "target": 17,
+                    "visible": true
+                },
+                {
+                    "source": 20,
+                    "target": 24,
+                    "visible": true
+                },
+                {
+                    "source": 20,
+                    "target": 25,
+                    "visible": true
+                }
+            ],
+            "name": "traits/Killable.js",
+            "visible": true,
+            "x": 0.3082821176360344,
+            "y": 0.294462751064901,
+            "z": 0.46383914674331045
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                17,
+                24
+            ],
+            "color": "#ffffff",
+            "id": 21,
+            "links": [
+                {
+                    "source": 21,
+                    "target": 17,
+                    "visible": true
+                },
+                {
+                    "source": 21,
+                    "target": 24,
+                    "visible": true
+                }
+            ],
+            "name": "traits/PendulumMove.js",
+            "visible": true,
+            "x": -0.6977635375550406,
+            "y": -0.05846335179702927,
+            "z": 0.5475589238228817
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                17,
+                24,
+                25
+            ],
+            "color": "#ffffff",
+            "id": 22,
+            "links": [
+                {
+                    "source": 22,
+                    "target": 17,
+                    "visible": true
+                },
+                {
+                    "source": 22,
+                    "target": 24,
+                    "visible": true
+                },
+                {
+                    "source": 22,
+                    "target": 25,
+                    "visible": true
+                }
+            ],
+            "name": "traits/Physics.js",
+            "visible": true,
+            "x": 0.06479377056609406,
+            "y": -0.11856728185201307,
+            "z": 0.4545836860914384
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                17,
+                24,
+                25
+            ],
+            "color": "#ffffff",
+            "id": 23,
+            "links": [
+                {
+                    "source": 23,
+                    "target": 17,
+                    "visible": true
+                },
+                {
+                    "source": 23,
+                    "target": 24,
+                    "visible": true
+                },
+                {
+                    "source": 23,
+                    "target": 25,
+                    "visible": true
+                }
+            ],
+            "name": "traits/Solid.js",
+            "visible": true,
+            "x": -0.14204708968344587,
+            "y": 0.3213336633450769,
+            "z": 0.06187948763200375
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                16
+            ],
+            "color": "#3A8EEF",
+            "id": 24,
+            "links": [
+                {
+                    "source": 24,
+                    "target": 16,
+                    "visible": true
+                }
+            ],
+            "name": "entities/Koopa.js",
+            "visible": true,
+            "x": -0.24555823428852946,
+            "y": 0.35102386690454873,
+            "z": 0.8566494263067788
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                16
+            ],
+            "color": "#3A8EEF",
+            "id": 25,
+            "links": [
+                {
+                    "source": 25,
+                    "target": 16,
+                    "visible": true
+                }
+            ],
+            "name": "entities/Mario.js",
+            "visible": true,
+            "x": 0.48404973185105216,
+            "y": 0.25298768347866124,
+            "z": -0.7334963845774483
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                25
+            ],
+            "color": "#FFFF00",
+            "id": 26,
+            "links": [
+                {
+                    "source": 26,
+                    "target": 25,
+                    "visible": true
+                }
+            ],
+            "name": "loaders/audio.js",
+            "visible": true,
+            "x": 0.9069402309397006,
+            "y": -0.37820339689435734,
+            "z": 0.1631549335354879
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                25
+            ],
+            "color": "#ffffff",
+            "id": 27,
+            "links": [
+                {
+                    "source": 27,
+                    "target": 25,
+                    "visible": true
+                }
+            ],
+            "name": "traits/Go.js",
+            "visible": true,
+            "x": -0.46186926082858326,
+            "y": 0.584288060553945,
+            "z": -0.2960827398154309
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                25
+            ],
+            "color": "#ffffff",
+            "id": 28,
+            "links": [
+                {
+                    "source": 28,
+                    "target": 25,
+                    "visible": true
+                }
+            ],
+            "name": "traits/Jump.js",
+            "visible": true,
+            "x": 0.7249381229195796,
+            "y": -0.26346566301370744,
+            "z": -0.4528378879570325
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                25
+            ],
+            "color": "#ffffff",
+            "id": 29,
+            "links": [
+                {
+                    "source": 29,
+                    "target": 25,
+                    "visible": true
+                }
+            ],
+            "name": "traits/Stomer.js",
+            "visible": true,
+            "x": 0.33447810291143204,
+            "y": 0.7845897364567429,
+            "z": -0.619639316755054
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                32
+            ],
+            "color": "#00FF2F",
+            "id": 30,
+            "links": [
+                {
+                    "source": 30,
+                    "target": 32,
+                    "visible": true
+                }
+            ],
+            "name": "input/KeyboardState.js",
+            "visible": true,
+            "x": 0.019428340111938953,
+            "y": -0.6868112830996368,
+            "z": 0.028634653433388228
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                32
+            ],
+            "color": "#00FF2F",
+            "id": 31,
+            "links": [
+                {
+                    "source": 31,
+                    "target": 32,
+                    "visible": true
+                }
+            ],
+            "name": "input/TouchPadState.js",
+            "visible": true,
+            "x": 0.6313262412204063,
+            "y": -0.5243413240133258,
+            "z": -0.4020328427088095
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#00FF2F",
+            "id": 32,
+            "links": [
+                {
+                    "source": 32,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "input/input.js",
+            "visible": true,
+            "x": 0.2528175207023702,
+            "y": 0.1467052816145425,
+            "z": -0.8050779976496115
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                39
+            ],
+            "color": "#9A183A",
+            "id": 33,
+            "links": [
+                {
+                    "source": 33,
+                    "target": 39,
+                    "visible": true
+                }
+            ],
+            "name": "layers/background.js",
+            "visible": true,
+            "x": 0.30775291827848883,
+            "y": 0.6826854385239921,
+            "z": -0.24857758685050907
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                41
+            ],
+            "color": "#9A183A",
+            "id": 34,
+            "links": [
+                {
+                    "source": 34,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "layers/dashboard.js",
+            "visible": true,
+            "x": 0.6071551735319888,
+            "y": 0.0425692740706215,
+            "z": 0.18765756097288666
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                34
+            ],
+            "color": "#ff00bd",
+            "id": 35,
+            "links": [
+                {
+                    "source": 35,
+                    "target": 34,
+                    "visible": true
+                }
+            ],
+            "name": "polyfills/addPadStart.js",
+            "visible": true,
+            "x": 0.5755722625550524,
+            "y": -0.25392769534025994,
+            "z": 0.9218971487853016
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                39
+            ],
+            "color": "#9A183A",
+            "id": 36,
+            "links": [
+                {
+                    "source": 36,
+                    "target": 39,
+                    "visible": true
+                }
+            ],
+            "name": "layers/sprites.js",
+            "visible": true,
+            "x": -0.029617792281790505,
+            "y": -0.2670569352295253,
+            "z": -0.5315682908293989
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                41
+            ],
+            "color": "#9A183A",
+            "id": 37,
+            "links": [
+                {
+                    "source": 37,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "layers/wating.js",
+            "visible": true,
+            "x": 0.7920476264109032,
+            "y": -0.21289862691685343,
+            "z": -0.2307306922818325
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#FFFF00",
+            "id": 38,
+            "links": [
+                {
+                    "source": 38,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "loaders/font.js",
+            "visible": true,
+            "x": -0.037572596015849995,
+            "y": 0.4848988659261728,
+            "z": 0.1300120367648847
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#FFFF00",
+            "id": 39,
+            "links": [
+                {
+                    "source": 39,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "loaders/level.js",
+            "visible": true,
+            "x": -0.7625810750900055,
+            "y": 0.12986759983877727,
+            "z": 0.11593058388132414
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                39
+            ],
+            "color": "#FFFF00",
+            "id": 40,
+            "links": [
+                {
+                    "source": 40,
+                    "target": 39,
+                    "visible": true
+                }
+            ],
+            "name": "loaders/music.js",
+            "visible": true,
+            "x": -0.07866928741899669,
+            "y": 0.7938564444996462,
+            "z": -0.3127510292954581
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#ff1000",
+            "id": 41,
+            "links": [],
+            "name": "js/main.js",
+            "visible": true,
+            "x": -0.3313064015786605,
+            "y": -0.5829846471123336,
+            "z": -0.591259508699754
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#ff8400",
+            "id": 42,
+            "links": [
+                {
+                    "source": 42,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "css/controller.css",
+            "visible": true,
+            "x": -0.8180963323590417,
+            "y": 0.0826719928976385,
+            "z": -0.31440452392498636
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#ff8400",
+            "id": 43,
+            "links": [
+                {
+                    "source": 43,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "css/main.css",
+            "visible": true,
+            "x": -0.28277094913412876,
+            "y": -0.8421307751431403,
+            "z": -0.27931495885311813
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#ff1000",
+            "id": 44,
+            "links": [
+                {
+                    "source": 44,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "js/player.js",
+            "visible": true,
+            "x": -0.48681658156150215,
+            "y": -0.7195740685585497,
+            "z": 0.0004495131913981191
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                44
+            ],
+            "color": "#ffffff",
+            "id": 45,
+            "links": [
+                {
+                    "source": 45,
+                    "target": 44,
+                    "visible": true
+                }
+            ],
+            "name": "traits/Player.js",
+            "visible": true,
+            "x": -0.1099678691543278,
+            "y": 0.19603086578694096,
+            "z": 0.8820781323176655
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                44
+            ],
+            "color": "#ffffff",
+            "id": 46,
+            "links": [
+                {
+                    "source": 46,
+                    "target": 44,
+                    "visible": true
+                }
+            ],
+            "name": "traits/PlayerController.js",
+            "visible": true,
+            "x": -0.7216886342479455,
+            "y": -0.540643952884942,
+            "z": 0.33758414113825813
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#ff00bd",
+            "id": 47,
+            "links": [
+                {
+                    "source": 47,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "polyfills/autoPlayOniOS.js",
+            "visible": true,
+            "x": -0.40009324849162214,
+            "y": 0.5894415161277168,
+            "z": -0.525786450823776
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                41
+            ],
+            "color": "#ff00bd",
+            "id": 48,
+            "links": [
+                {
+                    "source": 48,
+                    "target": 41,
+                    "visible": true
+                }
+            ],
+            "name": "polyfills/getUserAgent.js",
+            "visible": true,
+            "x": 0.2382961591724206,
+            "y": -0.11156847476983195,
+            "z": 0.5363674068987873
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#ffffff",
+            "id": 49,
+            "links": [],
+            "name": "traits/Velocity.js",
+            "visible": true,
+            "x": -0.6001686893629892,
+            "y": -0.3821874006069538,
+            "z": 0.7377744114613675
+        }
+    ],
+    "size": 0.35,
+    "taskId": 0,
+    "tasks": [
+        {
+            "question": "¿Cuáles son los archivos que podrían ser afectados de forma directa si se realiza algún cambio en el archivo 'loaders/font.js'?", 
+            "qtyAns":0,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuáles son los archivos en la carpeta 'traits' que tienen una relación de dependencia con los archivos en la carpeta 'entities', ya sea como dependencias de los archivos en 'entities' o como archivos de los que dependen los archivos en 'entities'?", 
+            "qtyAns":0,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuáles son los 3 archivos que a simple vista tienen mayor número de dependientes'?", 
+            "qtyAns":3,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuál es la carpeta que tiene la menor cantidad de archivos dentro del proyecto?", 
+            "qtyAns":1,
+            "folderType": true
+        },
+        {
+            "question": "¿Cuáles son los archivos dentro de la carpeta 'polyfils' que no dependen de ningún otro componente del sistema?", 
+            "qtyAns":0,
+            "folderType": false
+        }
+    ],
+    "version": 0
+}

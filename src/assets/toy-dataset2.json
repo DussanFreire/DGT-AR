@@ -1,0 +1,609 @@
+{
+    "actions": {
+        "filterUsed": false,
+        "resetUsed": false,
+        "rotateH": false,
+        "rotateV": false,
+        "sizeChanged": false,
+        "xBackward": false,
+        "xForward": false,
+        "yBackward": false,
+        "yForward": false,
+        "zBackward": false,
+        "zForward": false
+    },
+    "filters": [
+        {
+            "background": "#000000",
+            "color": "#ff1000",
+            "name": "folder-1"
+        },
+        {
+            "background": "#000000",
+            "color": "#FFFF00",
+            "name": "folder-2"
+        },
+        {
+            "background": "#000000",
+            "color": "#ffffff",
+            "name": "folder-3"
+        },
+        {
+            "background": "#ffffff",
+            "color": "#3A8EEF",
+            "name": "folder-4"
+        },
+        {
+            "background": "#000000",
+            "color": "#AAFF00",
+            "name": "folder-5"
+        }
+    ],
+    "graphName": "toy-1",
+    "nodes": [
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#ff1000",
+            "id": 0,
+            "links": [],
+            "name": "folder-1/file-1.ts",
+            "visible": true,
+            "x": -0.02270514966701174,
+            "y": -1.0,
+            "z": 0.08646319653242752
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                0,
+                2,
+                5,
+                9
+            ],
+            "color": "#ff1000",
+            "id": 1,
+            "links": [
+                {
+                    "source": 1,
+                    "target": 0,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 2,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 5,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 9,
+                    "visible": true
+                }
+            ],
+            "name": "folder-1/file-2.ts",
+            "visible": true,
+            "x": 0.188297886215829,
+            "y": -0.2075726830299053,
+            "z": 0.032213316992353545
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                11,
+                13,
+                15,
+                17,
+                19
+            ],
+            "color": "#ff1000",
+            "id": 2,
+            "links": [
+                {
+                    "source": 2,
+                    "target": 11,
+                    "visible": true
+                },
+                {
+                    "source": 2,
+                    "target": 13,
+                    "visible": true
+                },
+                {
+                    "source": 2,
+                    "target": 15,
+                    "visible": true
+                },
+                {
+                    "source": 2,
+                    "target": 17,
+                    "visible": true
+                },
+                {
+                    "source": 2,
+                    "target": 19,
+                    "visible": true
+                }
+            ],
+            "name": "folder-1/file-3.ts",
+            "visible": true,
+            "x": -0.08828593210429016,
+            "y": 0.3211927790261123,
+            "z": 0.29174739986950143
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                5
+            ],
+            "color": "#ff1000",
+            "id": 3,
+            "links": [
+                {
+                    "source": 3,
+                    "target": 5,
+                    "visible": true
+                }
+            ],
+            "name": "folder-1/file-4.ts",
+            "visible": true,
+            "x": -0.08246502137408025,
+            "y": 0.7788406407129617,
+            "z": 0.28911177633858587
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                21,
+                23,
+                0
+            ],
+            "color": "#ff1000",
+            "id": 4,
+            "links": [
+                {
+                    "source": 4,
+                    "target": 21,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 23,
+                    "visible": true
+                },
+                {
+                    "source": 4,
+                    "target": 0,
+                    "visible": true
+                }
+            ],
+            "name": "folder-1/file-5.ts",
+            "visible": true,
+            "x": -0.3685960650798668,
+            "y": -0.4424234411487387,
+            "z": -0.3919663185400397
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#ff1000",
+            "id": 5,
+            "links": [],
+            "name": "folder-1/file-6.ts",
+            "visible": true,
+            "x": 0.7136276946034474,
+            "y": 0.7126963465551657,
+            "z": -0.012153606244234923
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                23
+            ],
+            "color": "#FFFF00",
+            "id": 6,
+            "links": [
+                {
+                    "source": 6,
+                    "target": 23,
+                    "visible": true
+                }
+            ],
+            "name": "folder-2/file-7.ts",
+            "visible": true,
+            "x": 0.4684093692311282,
+            "y": -0.3256300086225953,
+            "z": -0.4812830415986105
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#FFFF00",
+            "id": 7,
+            "links": [],
+            "name": "folder-2/file-8.ts",
+            "visible": true,
+            "x": -0.7779455219344397,
+            "y": -0.1896984311082376,
+            "z": -0.7269576752619729
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#FFFF00",
+            "id": 8,
+            "links": [],
+            "name": "folder-2/file-9.ts",
+            "visible": true,
+            "x": -0.8223196822547983,
+            "y": 0.5031157840716554,
+            "z": -0.46424042138198046
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                10
+            ],
+            "color": "#FFFF00",
+            "id": 9,
+            "links": [
+                {
+                    "source": 9,
+                    "target": 10,
+                    "visible": true
+                }
+            ],
+            "name": "folder-2/file-10.ts",
+            "visible": true,
+            "x": -0.40888181355611647,
+            "y": -0.7664076139012223,
+            "z": 0.04462273894227115
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#ffffff",
+            "id": 10,
+            "links": [],
+            "name": "folder-3/file-11.ts",
+            "visible": true,
+            "x": 0.2479610646148903,
+            "y": -0.6748248065646282,
+            "z": 0.6211667895771525
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#ffffff",
+            "id": 11,
+            "links": [],
+            "name": "folder-3/file-12.ts",
+            "visible": true,
+            "x": 0.7404905033249816,
+            "y": 0.25556045035930275,
+            "z": -0.2640657654496961
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                5
+            ],
+            "color": "#ffffff",
+            "id": 12,
+            "links": [
+                {
+                    "source": 12,
+                    "target": 5,
+                    "visible": true
+                }
+            ],
+            "name": "folder-3/file-13.ts",
+            "visible": true,
+            "x": 0.6684300896120329,
+            "y": 0.37644824616660133,
+            "z": -0.5814134334369374
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                10,
+                10
+            ],
+            "color": "#ffffff",
+            "id": 13,
+            "links": [
+                {
+                    "source": 13,
+                    "target": 10,
+                    "visible": true
+                },
+                {
+                    "source": 13,
+                    "target": 10,
+                    "visible": true
+                }
+            ],
+            "name": "folder-3/file-14.ts",
+            "visible": true,
+            "x": 0.3376179665773919,
+            "y": 0.29693013199761437,
+            "z": 0.4450775474083037
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#ffffff",
+            "id": 14,
+            "links": [],
+            "name": "folder-3/file-15.ts",
+            "visible": true,
+            "x": 0.9040749311618623,
+            "y": -0.278681985439503,
+            "z": 0.1977215145528792
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                5,
+                1
+            ],
+            "color": "#3A8EEF",
+            "id": 15,
+            "links": [
+                {
+                    "source": 15,
+                    "target": 5,
+                    "visible": true
+                },
+                {
+                    "source": 15,
+                    "target": 1,
+                    "visible": true
+                }
+            ],
+            "name": "folder-4/file-16.ts",
+            "visible": true,
+            "x": 0.5450383809351584,
+            "y": 0.29392448957212125,
+            "z": 0.4332001547567658
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                4
+            ],
+            "color": "#3A8EEF",
+            "id": 16,
+            "links": [
+                {
+                    "source": 16,
+                    "target": 4,
+                    "visible": true
+                }
+            ],
+            "name": "folder-4/file-17.ts",
+            "visible": true,
+            "x": -0.30438600803651295,
+            "y": 0.5269057778840412,
+            "z": -0.29663441261902485
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                7,
+                9
+            ],
+            "color": "#3A8EEF",
+            "id": 17,
+            "links": [
+                {
+                    "source": 17,
+                    "target": 7,
+                    "visible": true
+                },
+                {
+                    "source": 17,
+                    "target": 9,
+                    "visible": true
+                }
+            ],
+            "name": "folder-4/file-18.ts",
+            "visible": true,
+            "x": -0.8807719755795214,
+            "y": -0.21994037463060817,
+            "z": 0.01346590638640052
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [
+                15,
+                2
+            ],
+            "color": "#3A8EEF",
+            "id": 18,
+            "links": [
+                {
+                    "source": 18,
+                    "target": 15,
+                    "visible": true
+                },
+                {
+                    "source": 18,
+                    "target": 2,
+                    "visible": true
+                }
+            ],
+            "name": "folder-4/file-19.ts",
+            "visible": true,
+            "x": 0.056636492549390224,
+            "y": -0.0763833551816277,
+            "z": 0.15644194570458017
+        },
+        {
+            "background": "#ffffff",
+            "childIds": [],
+            "color": "#3A8EEF",
+            "id": 19,
+            "links": [],
+            "name": "folder-4/file-20.ts",
+            "visible": true,
+            "x": -0.6142355641378917,
+            "y": 0.720674115824912,
+            "z": 0.7614346631576769
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                11,
+                14
+            ],
+            "color": "#AAFF00",
+            "id": 20,
+            "links": [
+                {
+                    "source": 20,
+                    "target": 11,
+                    "visible": true
+                },
+                {
+                    "source": 20,
+                    "target": 14,
+                    "visible": true
+                }
+            ],
+            "name": "folder-5/file-21.ts",
+            "visible": true,
+            "x": 0.8236534773427987,
+            "y": 0.1441733055053086,
+            "z": 0.38507177626042116
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#AAFF00",
+            "id": 21,
+            "links": [],
+            "name": "folder-5/file-22.ts",
+            "visible": true,
+            "x": -0.9009708598753874,
+            "y": -0.4506129154179505,
+            "z": 0.24640101600372633
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                0,
+                1,
+                8
+            ],
+            "color": "#AAFF00",
+            "id": 22,
+            "links": [
+                {
+                    "source": 22,
+                    "target": 0,
+                    "visible": true
+                },
+                {
+                    "source": 22,
+                    "target": 1,
+                    "visible": true
+                },
+                {
+                    "source": 22,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "folder-5/file-23.ts",
+            "visible": true,
+            "x": -0.42655455076593324,
+            "y": -0.25755370520109844,
+            "z": -0.08611898371657176
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#AAFF00",
+            "id": 23,
+            "links": [],
+            "name": "folder-5/file-24.ts",
+            "visible": true,
+            "x": 0.0046798541826957845,
+            "y": 0.3743671296912492,
+            "z": -0.8297989520233449
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                6,
+                2,
+                9,
+                2
+            ],
+            "color": "#AAFF00",
+            "id": 24,
+            "links": [
+                {
+                    "source": 24,
+                    "target": 6,
+                    "visible": true
+                },
+                {
+                    "source": 24,
+                    "target": 2,
+                    "visible": true
+                },
+                {
+                    "source": 24,
+                    "target": 9,
+                    "visible": true
+                },
+                {
+                    "source": 24,
+                    "target": 2,
+                    "visible": true
+                }
+            ],
+            "name": "folder-5/file-25.ts",
+            "visible": true,
+            "x": -0.0007995659857555374,
+            "y": -0.41509987712093105,
+            "z": 0.13049286778936764
+        }
+    ],
+    "size": 0.35,
+    "taskId": 0,
+    "tasks": [
+        {
+            "question": "¿Cuáles son los archivos que podrían ser afectados de forma directa si se realiza algún cambio en el archivo 'folder-1/file-2.ts'?", 
+            "qtyAns":0,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuáles son los archivos en la carpeta 'folder-1' que tienen una relación de dependencia con los archivos en la carpeta 'folder-5', ya sea como dependencias de los archivos en 'folder-5' o como archivos de los que dependen los archivos en 'folder-5'?", 
+            "qtyAns":0,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuáles son los 3 archivos que a simple vista tienen mayor número de dependientes'?", 
+            "qtyAns":3,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuál es la carpeta que tiene la menor cantidad de archivos dentro del proyecto?", 
+            "qtyAns":1,
+            "folderType": true
+        },
+        {
+            "question": "¿Cuáles son los archivos dentro de la carpeta 'folder-5' que no dependen de ningún otro componente del sistema?", 
+            "qtyAns":0,
+            "folderType": false
+        }
+    ],
+    "version": 0
+}

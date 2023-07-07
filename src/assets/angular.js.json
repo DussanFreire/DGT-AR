@@ -1,0 +1,1255 @@
+{
+    "actions": {
+        "filterUsed": false,
+        "sizeChanged": false,
+        "resetUsed": false,
+        "rotateH": false,
+        "rotateV": false,
+        "xBackward": false,
+        "xForward": false,
+        "yBackward": false,
+        "yForward": false,
+        "zBackward": false,
+        "zForward": false
+    },
+    "filters": [
+        {
+            "color": "#ff1000",
+            "background":"#000000",
+            "name": "angular.js"
+        },
+        {
+            "color": "#9A183A",
+            "background":"#ffffff",
+            "name": "grunt"
+        },
+        {
+            "color": "#ff00bd",
+            "background":"#000000",
+            "name": "versions"
+        },
+        {
+            "color": "#bc86b3",
+            "background":"#000000",
+            "name": "tools"
+        },
+        {
+            "color": "#e13ef8",
+            "background":"#000000",
+            "name": "config"
+        },
+        {
+            "color": "#9123ac",
+            "background":"#ffffff",
+            "name": "inline-tag-defs"
+        },
+        {
+            "color": "#7500ff",
+            "background":"#ffffff",
+            "name": "processors"
+        },
+        {
+            "color": "#FFFF00",
+            "background":"#000000",
+            "name": "deployments"
+        },
+        {
+            "color": "#ff8400",
+            "background":"#000000",
+            "name": "services"
+        },
+        {
+            "color": "#E0AD1D",
+            "background":"#ffffff",
+            "name": "tag-defs"
+        },
+        {
+            "color": "#ffffff",
+            "background":"#000000",
+            "name": "docs"
+        },
+        {
+            "color": "#05eaed",
+            "background":"#000000",
+            "name": "spec"
+        },
+        {
+            "color": "#3A8EEF",
+            "background":"#ffffff",
+            "name": "src"
+        }
+    ],
+    "graphName": "angular.js",
+    "nodes": [
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 0,
+            "links": [],
+            "name": "angular.js/Gruntfile.js",
+            "visible": true,
+            "x": 0.14405612394529194,
+            "y": -0.952090266552003,
+            "z": 0.17257885719725663
+        },
+        {
+            "childIds": [
+                0,
+                47,
+                49,
+                52,
+                53,
+                56
+            ],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 1,
+            "links": [
+                {
+                    "source": 1,
+                    "target": 0,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 47,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 49,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 52,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 53,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 56,
+                    "visible": true
+                }
+            ],
+            "name": "angular.js/angularFiles.js",
+            "visible": true,
+            "x": -0.25173884644409544,
+            "y": 0.0034069113613213026,
+            "z": 0.1557053562339205
+        },
+        {
+            "childIds": [
+                0,
+                55
+            ],
+            "color": "#9A183A",
+            "background":"#ffffff",
+            "id": 2,
+            "links": [
+                {
+                    "source": 2,
+                    "target": 0,
+                    "visible": true
+                },
+                {
+                    "source": 2,
+                    "target": 55,
+                    "visible": true
+                }
+            ],
+            "name": "grunt/utils.js",
+            "visible": true,
+            "x": 0.08401629178102278,
+            "y": -0.014144792112795103,
+            "z": -0.3958595213540692
+        },
+        {
+            "childIds": [
+                0,
+                19
+            ],
+            "color": "#ff00bd",
+            "background":"#000000",
+            "id": 3,
+            "links": [
+                {
+                    "source": 3,
+                    "target": 0,
+                    "visible": true
+                },
+                {
+                    "source": 3,
+                    "target": 19,
+                    "visible": true
+                }
+            ],
+            "name": "versions/version-info.js",
+            "visible": true,
+            "x": -0.3388357994952477,
+            "y": 0.13862022049422257,
+            "z": 0.5757971498556643
+        },
+        {
+            "childIds": [
+                0
+            ],
+            "color": "#bc86b3",
+            "background":"#000000",
+            "id": 4,
+            "links": [
+                {
+                    "source": 4,
+                    "target": 0,
+                    "visible": true
+                }
+            ],
+            "name": "tools/index.js",
+            "visible": true,
+            "x": -0.4109787958825789,
+            "y": -0.28498857204354827,
+            "z": -0.5790725175894669
+        },
+        {
+            "childIds": [
+                4
+            ],
+            "color": "#bc86b3",
+            "background":"#000000",
+            "id": 5,
+            "links": [
+                {
+                    "source": 5,
+                    "target": 4,
+                    "visible": true
+                }
+            ],
+            "name": "tools/middleware.js",
+            "visible": true,
+            "x": 0.47951444030483903,
+            "y": 0.5186336831189501,
+            "z": -0.2885228709625818
+        },
+        {
+            "childIds": [
+                5
+            ],
+            "color": "#bc86b3",
+            "background":"#000000",
+            "id": 6,
+            "links": [
+                {
+                    "source": 6,
+                    "target": 5,
+                    "visible": true
+                }
+            ],
+            "name": "tools/fixture.js",
+            "visible": true,
+            "x": 0.8692641648796385,
+            "y": -0.3988940358447093,
+            "z": 0.055245154698983855
+        },
+        {
+            "childIds": [
+                5,
+                6
+            ],
+            "color": "#bc86b3",
+            "background":"#000000",
+            "id": 7,
+            "links": [
+                {
+                    "source": 7,
+                    "target": 5,
+                    "visible": true
+                },
+                {
+                    "source": 7,
+                    "target": 6,
+                    "visible": true
+                }
+            ],
+            "name": "tools/util.js",
+            "visible": true,
+            "x": 0.13407388127561634,
+            "y": -0.1361700320217926,
+            "z": -0.5243915418260867
+        },
+        {
+            "childIds": [
+                30
+            ],
+            "color": "#e13ef8",
+            "background":"#000000",
+            "id": 8,
+            "links": [
+                {
+                    "source": 8,
+                    "target": 30,
+                    "visible": true
+                }
+            ],
+            "name": "config/index.js",
+            "visible": true,
+            "x": -0.6175483098427762,
+            "y": -0.08851806896108719,
+            "z": -0.2839937058593641
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#9123ac",
+            "background":"#ffffff",
+            "id": 9,
+            "links": [
+                {
+                    "source": 9,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "inline-tag-defs/type.js",
+            "visible": true,
+            "x": -0.7619779017300101,
+            "y": -0.3412644354090823,
+            "z": -0.3144473073256197
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#7500ff",
+            "background":"#ffffff",
+            "id": 10,
+            "links": [
+                {
+                    "source": 10,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "processors/error-docs.js",
+            "visible": true,
+            "x": -0.1378737463401281,
+            "y": -0.7235297293984541,
+            "z": 0.2652451357236235
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#7500ff",
+            "background":"#ffffff",
+            "id": 11,
+            "links": [
+                {
+                    "source": 11,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "processors/index-page.js",
+            "visible": true,
+            "x": 0.15011612366352442,
+            "y": 0.5590239459887846,
+            "z": -0.30765325995648174
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#7500ff",
+            "background":"#ffffff",
+            "id": 12,
+            "links": [
+                {
+                    "source": 12,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "processors/keywords.js",
+            "visible": true,
+            "x": 0.4123410169087433,
+            "y": 0.19411980660403744,
+            "z": -0.7011268424451103
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#7500ff",
+            "background":"#ffffff",
+            "id": 13,
+            "links": [
+                {
+                    "source": 13,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "processors/pages-data.js",
+            "visible": true,
+            "x": 0.10359848717289524,
+            "y": 0.8197571817423283,
+            "z": -0.11752332913358028
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#7500ff",
+            "background":"#ffffff",
+            "id": 14,
+            "links": [
+                {
+                    "source": 14,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "processors/sitemap.js",
+            "visible": true,
+            "x": 0.482713739926851,
+            "y": -0.15291206205288965,
+            "z": -0.07301604951856323
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#7500ff",
+            "background":"#ffffff",
+            "id": 15,
+            "links": [
+                {
+                    "source": 15,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "processors/versions-data.js",
+            "visible": true,
+            "x": -0.2994315575634534,
+            "y": -0.04990417382967193,
+            "z": 0.722682629972964
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#FFFF00",
+            "background":"#000000",
+            "id": 16,
+            "links": [
+                {
+                    "source": 16,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "deployments/debug.js",
+            "visible": true,
+            "x": -0.1750644106749019,
+            "y": 0.8374265142736567,
+            "z": 0.005320082342971465
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#FFFF00",
+            "background":"#000000",
+            "id": 17,
+            "links": [
+                {
+                    "source": 17,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "deployments/default.js",
+            "visible": true,
+            "x": -0.7107432051454277,
+            "y": -0.09312963496463696,
+            "z": 0.5969695954322982
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#FFFF00",
+            "background":"#000000",
+            "id": 18,
+            "links": [
+                {
+                    "source": 18,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "deployments/jquery.js",
+            "visible": true,
+            "x": -0.1909014152999854,
+            "y": -0.7686404652221666,
+            "z": -0.4585922522663788
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#FFFF00",
+            "background":"#000000",
+            "id": 19,
+            "links": [
+                {
+                    "source": 19,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "deployments/production.js",
+            "visible": true,
+            "x": -0.6048243692368827,
+            "y": 0.6402270544723933,
+            "z": 0.44611769769004783
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#FFFF00",
+            "background":"#000000",
+            "id": 20,
+            "links": [
+                {
+                    "source": 20,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "deployments/test.js",
+            "visible": true,
+            "x": 0.3537860043225671,
+            "y": 0.23823001356499862,
+            "z": 0.2438675915421817
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#ff8400",
+            "background":"#000000",
+            "id": 21,
+            "links": [
+                {
+                    "source": 21,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "services/errorNamespaceMap.js",
+            "visible": true,
+            "x": -0.8141862331320548,
+            "y": -0.26889815838394665,
+            "z": 0.06867347322569718
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#ff8400",
+            "background":"#000000",
+            "id": 22,
+            "links": [
+                {
+                    "source": 22,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "services/getMinerrInfo.js",
+            "visible": true,
+            "x": -0.4013200876406565,
+            "y": -0.5023500656599277,
+            "z": 0.6336785031834427
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#ff8400",
+            "background":"#000000",
+            "id": 23,
+            "links": [
+                {
+                    "source": 23,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "services/getVersion.js",
+            "visible": true,
+            "x": -0.12138957009148457,
+            "y": 0.2527868948784108,
+            "z": -0.7420109823197771
+        },
+        {
+            "childIds": [
+                8,
+                29
+            ],
+            "color": "#E0AD1D",
+            "background":"#ffffff",
+            "id": 24,
+            "links": [
+                {
+                    "source": 24,
+                    "target": 8,
+                    "visible": true
+                },
+                {
+                    "source": 24,
+                    "target": 29,
+                    "visible": true
+                }
+            ],
+            "name": "tag-defs/deprecated.js",
+            "visible": true,
+            "x": -0.2935678177130812,
+            "y": 0.3265040557181437,
+            "z": 0.2765288358897089
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#E0AD1D",
+            "background":"#ffffff",
+            "id": 25,
+            "links": [
+                {
+                    "source": 25,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "tag-defs/installation.js",
+            "visible": true,
+            "x": 0.19636787436410694,
+            "y": -0.1063386482091585,
+            "z": -0.8659887446393116
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#E0AD1D",
+            "background":"#ffffff",
+            "id": 26,
+            "links": [
+                {
+                    "source": 26,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "tag-defs/sortOrder.js",
+            "visible": true,
+            "x": 0.2876501851883752,
+            "y": -0.517668513662648,
+            "z": 0.11394514657246486
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#E0AD1D",
+            "background":"#ffffff",
+            "id": 27,
+            "links": [
+                {
+                    "source": 27,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "tag-defs/this.js",
+            "visible": true,
+            "x": -0.7891426280344778,
+            "y": 0.42671919551602455,
+            "z": -0.08455558340996407
+        },
+        {
+            "childIds": [
+                8
+            ],
+            "color": "#E0AD1D",
+            "background":"#ffffff",
+            "id": 28,
+            "links": [
+                {
+                    "source": 28,
+                    "target": 8,
+                    "visible": true
+                }
+            ],
+            "name": "tag-defs/tutorial-step.js",
+            "visible": true,
+            "x": 0.33308076387527835,
+            "y": -0.21603365679504247,
+            "z": -0.6089591998955927
+        },
+        {
+            "childIds": [],
+            "color": "#E0AD1D",
+            "background":"#ffffff",
+            "id": 29,
+            "links": [],
+            "name": "tag-defs/deprecated.spec.js",
+            "visible": true,
+            "x": 0.13732254992536863,
+            "y": 0.8258249597211372,
+            "z": -0.5195096227149956
+        },
+        {
+            "childIds": [],
+            "color": "#ffffff",
+            "background":"#000000",
+            "id": 30,
+            "links": [],
+            "name": "docs/gulpfile.js",
+            "visible": true,
+            "x": -0.15431934171730644,
+            "y": -0.8211211014945834,
+            "z": 0.5454977346085416
+        },
+        {
+            "childIds": [],
+            "color": "#ffffff",
+            "background":"#000000",
+            "id": 31,
+            "links": [],
+            "name": "docs/protractor-conf.js",
+            "visible": true,
+            "x": 0.5913283027855825,
+            "y": -0.7380671358866193,
+            "z": -0.1166791214177397
+        },
+        {
+            "childIds": [
+                31,
+                57,
+                58
+            ],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 32,
+            "links": [
+                {
+                    "source": 32,
+                    "target": 31,
+                    "visible": true
+                },
+                {
+                    "source": 32,
+                    "target": 57,
+                    "visible": true
+                },
+                {
+                    "source": 32,
+                    "target": 58,
+                    "visible": true
+                }
+            ],
+            "name": "angular.js/protractor-shared-conf.js",
+            "visible": true,
+            "x": 0.38411960091098746,
+            "y": -0.04631836321070146,
+            "z": -0.18503531365027348
+        },
+        {
+            "childIds": [],
+            "color": "#05eaed",
+            "background":"#000000",
+            "id": 33,
+            "links": [],
+            "name": "spec/closureI18nExtractorSpec.js",
+            "visible": true,
+            "x": 0.7838439908537004,
+            "y": 0.4958425749658117,
+            "z": -0.4413581132442194
+        },
+        {
+            "childIds": [
+                33,
+                39
+            ],
+            "color": "#3A8EEF",
+            "background":"#ffffff",
+            "id": 34,
+            "links": [
+                {
+                    "source": 34,
+                    "target": 33,
+                    "visible": true
+                },
+                {
+                    "source": 34,
+                    "target": 39,
+                    "visible": true
+                }
+            ],
+            "name": "src/closureI18nExtractor.js",
+            "visible": true,
+            "x": 0.43819881452397186,
+            "y": 0.6629006760922667,
+            "z": 0.2814224176330725
+        },
+        {
+            "childIds": [
+                33,
+                34,
+                37
+            ],
+            "color": "#3A8EEF",
+            "background":"#ffffff",
+            "id": 35,
+            "links": [
+                {
+                    "source": 35,
+                    "target": 33,
+                    "visible": true
+                },
+                {
+                    "source": 35,
+                    "target": 34,
+                    "visible": true
+                },
+                {
+                    "source": 35,
+                    "target": 37,
+                    "visible": true
+                }
+            ],
+            "name": "src/converter.js",
+            "visible": true,
+            "x": 0.6294873641607082,
+            "y": 0.0072079167575843945,
+            "z": 0.47205151202932477
+        },
+        {
+            "childIds": [
+                35,
+                38
+            ],
+            "color": "#3A8EEF",
+            "background":"#ffffff",
+            "id": 36,
+            "links": [
+                {
+                    "source": 36,
+                    "target": 35,
+                    "visible": true
+                },
+                {
+                    "source": 36,
+                    "target": 38,
+                    "visible": true
+                }
+            ],
+            "name": "src/parser.js",
+            "visible": true,
+            "x": 0.6385989717339537,
+            "y": -0.12066011314030113,
+            "z": -0.08487266581969675
+        },
+        {
+            "childIds": [],
+            "color": "#05eaed",
+            "background":"#000000",
+            "id": 37,
+            "links": [],
+            "name": "spec/converterSpec.js",
+            "visible": true,
+            "x": 1.0,
+            "y": 0.05681839558134129,
+            "z": 0.16148369669033424
+        },
+        {
+            "childIds": [],
+            "color": "#05eaed",
+            "background":"#000000",
+            "id": 38,
+            "links": [],
+            "name": "spec/parserSpec.js",
+            "visible": true,
+            "x": 0.36115971347735687,
+            "y": 0.777889038874374,
+            "z": 0.45133203429973573
+        },
+        {
+            "childIds": [],
+            "color": "#3A8EEF",
+            "background":"#ffffff",
+            "id": 39,
+            "links": [],
+            "name": "src/closureSlurper.js",
+            "visible": true,
+            "x": -0.7165956074920968,
+            "y": 0.40652127157416534,
+            "z": 0.26050405538191473
+        },
+        {
+            "childIds": [],
+            "color": "#05eaed",
+            "background":"#000000",
+            "id": 40,
+            "links": [],
+            "name": "spec/extactValuesSpec.js",
+            "visible": true,
+            "x": 0.25656927905565075,
+            "y": 0.6294707269185457,
+            "z": -0.5826887185641724
+        },
+        {
+            "childIds": [
+                40,
+                44
+            ],
+            "color": "#3A8EEF",
+            "background":"#ffffff",
+            "id": 41,
+            "links": [
+                {
+                    "source": 41,
+                    "target": 40,
+                    "visible": true
+                },
+                {
+                    "source": 41,
+                    "target": 44,
+                    "visible": true
+                }
+            ],
+            "name": "src/extractValues.js",
+            "visible": true,
+            "x": -0.30100352041212636,
+            "y": -0.2960153391113224,
+            "z": -0.7051019842839964
+        },
+        {
+            "childIds": [],
+            "color": "#05eaed",
+            "background":"#000000",
+            "id": 42,
+            "links": [],
+            "name": "spec/generateCodeSpec.js",
+            "visible": true,
+            "x": -0.8198651285795423,
+            "y": 0.25573884808865,
+            "z": -0.2917541550825561
+        },
+        {
+            "childIds": [
+                42,
+                44
+            ],
+            "color": "#3A8EEF",
+            "background":"#ffffff",
+            "id": 43,
+            "links": [
+                {
+                    "source": 43,
+                    "target": 42,
+                    "visible": true
+                },
+                {
+                    "source": 43,
+                    "target": 44,
+                    "visible": true
+                }
+            ],
+            "name": "src/generateCode.js",
+            "visible": true,
+            "x": -0.5145365199186224,
+            "y": -0.6279755596478058,
+            "z": -0.3209488518774314
+        },
+        {
+            "childIds": [],
+            "color": "#3A8EEF",
+            "background":"#ffffff",
+            "id": 44,
+            "links": [],
+            "name": "src/extract.js",
+            "visible": true,
+            "x": -0.547979360115221,
+            "y": -0.6760952018650808,
+            "z": 0.12712938550748665
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 45,
+            "links": [],
+            "name": "angular.js/karma-docs.conf.js",
+            "visible": true,
+            "x": 0.2258864715864498,
+            "y": 0.5395700434816223,
+            "z": 0.8738251852776159
+        },
+        {
+            "childIds": [
+                45,
+                47,
+                49,
+                52,
+                53,
+                54
+            ],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 46,
+            "links": [
+                {
+                    "source": 46,
+                    "target": 45,
+                    "visible": true
+                },
+                {
+                    "source": 46,
+                    "target": 47,
+                    "visible": true
+                },
+                {
+                    "source": 46,
+                    "target": 49,
+                    "visible": true
+                },
+                {
+                    "source": 46,
+                    "target": 52,
+                    "visible": true
+                },
+                {
+                    "source": 46,
+                    "target": 53,
+                    "visible": true
+                },
+                {
+                    "source": 46,
+                    "target": 54,
+                    "visible": true
+                }
+            ],
+            "name": "angular.js/karma-shared.conf.js",
+            "visible": true,
+            "x": -0.19208154765435062,
+            "y": 0.15139646951194777,
+            "z": 0.370415902528887
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 47,
+            "links": [],
+            "name": "angular.js/karma-jqlite.conf.js",
+            "visible": true,
+            "x": -0.3861331722321151,
+            "y": 0.74597441418309,
+            "z": -0.4172842579343559
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 48,
+            "links": [],
+            "name": "angular.js/karma-jquery-2.1.conf.js",
+            "visible": true,
+            "x": 0.5630184529076702,
+            "y": 0.2873549740089441,
+            "z": 0.7928216495328116
+        },
+        {
+            "childIds": [
+                48,
+                50,
+                51
+            ],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 49,
+            "links": [
+                {
+                    "source": 49,
+                    "target": 48,
+                    "visible": true
+                },
+                {
+                    "source": 49,
+                    "target": 50,
+                    "visible": true
+                },
+                {
+                    "source": 49,
+                    "target": 51,
+                    "visible": true
+                }
+            ],
+            "name": "angular.js/karma-jquery.conf-factory.js",
+            "visible": true,
+            "x": -0.019257553133421944,
+            "y": -0.49312668131158827,
+            "z": 0.274134953540622
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 50,
+            "links": [],
+            "name": "angular.js/karma-jquery-2.2.conf.js",
+            "visible": true,
+            "x": -0.5419467041665285,
+            "y": -0.8012972955464559,
+            "z": -0.09422853630827581
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 51,
+            "links": [],
+            "name": "angular.js/karma-jquery.conf.js",
+            "visible": true,
+            "x": 0.32778840575364154,
+            "y": -0.6164677188824959,
+            "z": -0.7121990667076603
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 52,
+            "links": [],
+            "name": "angular.js/karma-modules-ngAnimate.conf.js",
+            "visible": true,
+            "x": -0.8110683505629848,
+            "y": 0.02289825931330381,
+            "z": 0.438652110329239
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 53,
+            "links": [],
+            "name": "angular.js/karma-modules-ngMock.conf.js",
+            "visible": true,
+            "x": -0.3871788394462641,
+            "y": 0.8443722799028723,
+            "z": 0.03200508945732148
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 54,
+            "links": [],
+            "name": "angular.js/karma-modules.conf.js",
+            "visible": true,
+            "x": 0.5548252228488143,
+            "y": -0.49605550504068513,
+            "z": 0.6072525880081465
+        },
+        {
+            "childIds": [],
+            "color": "#9A183A",
+            "background":"#ffffff",
+            "id": 55,
+            "links": [],
+            "name": "grunt/plugins.js",
+            "visible": true,
+            "x": 0.964686883016539,
+            "y": -0.07394300691611547,
+            "z": -0.3494346751375865
+        },
+        {
+            "childIds": [],
+            "color": "#9A183A",
+            "background":"#ffffff",
+            "id": 56,
+            "links": [],
+            "name": "grunt/validate-angular-files.js",
+            "visible": true,
+            "x": 0.19433299162822695,
+            "y": 0.020981239318512365,
+            "z": 0.839620742331538
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 57,
+            "links": [],
+            "name": "angular.js/protractor-circleci-conf.js",
+            "visible": true,
+            "x": 0.2665611133063827,
+            "y": -0.8297241836729311,
+            "z": -0.4586750810539603
+        },
+        {
+            "childIds": [],
+            "color": "#ff1000",
+            "background":"#000000",
+            "id": 58,
+            "links": [],
+            "name": "angular.js/protractor-conf.js",
+            "visible": true,
+            "x": -0.03681688638593139,
+            "y": 0.5661249508228064,
+            "z": 0.7649796055810523
+        }
+    ],
+    "size": 0.35,
+    "taskId": 0,
+    "tasks": [
+        {
+            "question": "¿Cuáles son los archivos que podrían ser afectados de forma directa si se realiza algún cambio en el archivo 'src/converter.js'?", 
+            "qtyAns":0,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuáles son los archivos en la carpeta 'grunt' que tienen una relación de dependencia con los archivos en la carpeta 'angular.js', ya sea como dependencias de los archivos en 'angular.js' o como archivos de los que dependen los archivos en 'angular.js'?", 
+            "qtyAns":0,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuáles son los 3 archivos que a simple vista tienen mayor número de dependientes'?", 
+            "qtyAns":3,
+            "folderType": false
+        },
+        {
+            "question": "¿Cuál es la carpeta que tiene la menor cantidad de archivos dentro del proyecto?", 
+            "qtyAns":1,
+            "folderType": true
+        },
+        {
+            "question": "¿Cuáles son los archivos dentro de la carpeta 'src' que no dependen de ningún otro componente del sistema?", 
+            "qtyAns":0,
+            "folderType": false
+        }
+    ],
+    "version": 0
+}
