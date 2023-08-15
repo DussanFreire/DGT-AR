@@ -15,12 +15,12 @@
     "filters": [
         {
             "background": "#000000",
-            "color": "#ff1000",
+            "color": "#FF0000",
             "name": "js"
         },
         {
-            "background": "#ffffff",
-            "color": "#3A8EEF",
+            "background": "#000000",
+            "color": "#0000FF",
             "name": "entities"
         },
         {
@@ -35,22 +35,22 @@
         },
         {
             "background": "#000000",
-            "color": "#00FF2F",
+            "color": "#00FFFF",
             "name": "input"
         },
         {
-            "background": "#ffffff",
-            "color": "#9A183A",
+            "background": "#000000",
+            "color": "#FF00FF",
             "name": "layers"
         },
         {
             "background": "#000000",
-            "color": "#ff00bd",
+            "color": "#FF7F00",
             "name": "polyfills"
         },
         {
             "background": "#000000",
-            "color": "#ff8400",
+            "color": "#007FFF",
             "name": "css"
         }
     ],
@@ -62,7 +62,7 @@
                 4,
                 26
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 0,
             "links": [
                 {
@@ -87,7 +87,7 @@
             "childIds": [
                 4
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 1,
             "links": [
                 {
@@ -107,7 +107,7 @@
             "childIds": [
                 41
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 2,
             "links": [
                 {
@@ -130,7 +130,7 @@
                 39,
                 46
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 3,
             "links": [
                 {
@@ -179,7 +179,7 @@
                 46,
                 49
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 4,
             "links": [
                 {
@@ -269,7 +269,7 @@
             "childIds": [
                 4
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 5,
             "links": [
                 {
@@ -289,7 +289,7 @@
             "childIds": [
                 7
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 6,
             "links": [
                 {
@@ -309,7 +309,7 @@
             "childIds": [
                 39
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 7,
             "links": [
                 {
@@ -329,7 +329,7 @@
             "childIds": [
                 7
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 8,
             "links": [
                 {
@@ -349,7 +349,7 @@
             "childIds": [
                 7
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 9,
             "links": [
                 {
@@ -369,7 +369,7 @@
             "childIds": [
                 7
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 10,
             "links": [
                 {
@@ -390,7 +390,7 @@
                 10,
                 33
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 11,
             "links": [
                 {
@@ -415,7 +415,7 @@
             "childIds": [
                 40
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 12,
             "links": [
                 {
@@ -436,7 +436,7 @@
                 18,
                 38
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 13,
             "links": [
                 {
@@ -461,7 +461,7 @@
             "childIds": [
                 41
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 14,
             "links": [
                 {
@@ -481,7 +481,7 @@
             "childIds": [
                 18
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 15,
             "links": [
                 {
@@ -501,7 +501,7 @@
             "childIds": [
                 41
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 16,
             "links": [
                 {
@@ -517,11 +517,11 @@
             "z": -0.1382460897036347
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 16
             ],
-            "color": "#3A8EEF",
+            "color": "#0000FF",
             "id": 17,
             "links": [
                 {
@@ -584,7 +584,7 @@
                 40,
                 41
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 19,
             "links": [
                 {
@@ -747,11 +747,11 @@
             "z": 0.06187948763200375
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 16
             ],
-            "color": "#3A8EEF",
+            "color": "#0000FF",
             "id": 24,
             "links": [
                 {
@@ -767,11 +767,11 @@
             "z": 0.8566494263067788
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 16
             ],
-            "color": "#3A8EEF",
+            "color": "#0000FF",
             "id": 25,
             "links": [
                 {
@@ -871,7 +871,7 @@
             "childIds": [
                 32
             ],
-            "color": "#00FF2F",
+            "color": "#00FFFF",
             "id": 30,
             "links": [
                 {
@@ -891,7 +891,7 @@
             "childIds": [
                 32
             ],
-            "color": "#00FF2F",
+            "color": "#00FFFF",
             "id": 31,
             "links": [
                 {
@@ -911,7 +911,7 @@
             "childIds": [
                 41
             ],
-            "color": "#00FF2F",
+            "color": "#00FFFF",
             "id": 32,
             "links": [
                 {
@@ -927,11 +927,11 @@
             "z": -0.8050779976496115
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 39
             ],
-            "color": "#9A183A",
+            "color": "#FF00FF",
             "id": 33,
             "links": [
                 {
@@ -947,11 +947,11 @@
             "z": -0.24857758685050907
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 41
             ],
-            "color": "#9A183A",
+            "color": "#FF00FF",
             "id": 34,
             "links": [
                 {
@@ -971,7 +971,7 @@
             "childIds": [
                 34
             ],
-            "color": "#ff00bd",
+            "color": "#FF7F00",
             "id": 35,
             "links": [
                 {
@@ -987,11 +987,11 @@
             "z": 0.9218971487853016
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 39
             ],
-            "color": "#9A183A",
+            "color": "#FF00FF",
             "id": 36,
             "links": [
                 {
@@ -1007,11 +1007,11 @@
             "z": -0.5315682908293989
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 41
             ],
-            "color": "#9A183A",
+            "color": "#FF00FF",
             "id": 37,
             "links": [
                 {
@@ -1089,7 +1089,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 41,
             "links": [],
             "name": "js/main.js",
@@ -1103,7 +1103,7 @@
             "childIds": [
                 41
             ],
-            "color": "#ff8400",
+            "color": "#007FFF",
             "id": 42,
             "links": [
                 {
@@ -1123,7 +1123,7 @@
             "childIds": [
                 41
             ],
-            "color": "#ff8400",
+            "color": "#007FFF",
             "id": 43,
             "links": [
                 {
@@ -1143,7 +1143,7 @@
             "childIds": [
                 41
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 44,
             "links": [
                 {
@@ -1203,7 +1203,7 @@
             "childIds": [
                 41
             ],
-            "color": "#ff00bd",
+            "color": "#FF7F00",
             "id": 47,
             "links": [
                 {
@@ -1223,7 +1223,7 @@
             "childIds": [
                 41
             ],
-            "color": "#ff00bd",
+            "color": "#FF7F00",
             "id": 48,
             "links": [
                 {

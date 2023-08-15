@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { DependenciesDto, NodeFilterGraph } from "../../dto/dependencies.dto";
 import { ColorsManager } from "../dependencies/ColorsManager";
-import * as jsonData from "../../assets/angular.js.json";
+import * as jsonData from "../../assets/mario.json";
 import { MetricsDto } from "../../dto/metrics.dto";
 import { HeadDataDto } from "../../dto/headData.dto";
 import { ActionDto } from "src/dto/actions.dto";
