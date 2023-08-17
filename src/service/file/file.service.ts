@@ -1,15 +1,19 @@
 import { Injectable } from "@nestjs/common";
 import { DependenciesDto, NodeFilterGraph } from "../../dto/dependencies.dto";
 import { ColorsManager } from "../dependencies/ColorsManager";
-import * as jsonData from "../../assets/mario.json";
+import * as  marioData from "../../assets/mario.json";
+import * as angularData from "../../assets/angular.js.json";
 import { MetricsDto } from "../../dto/metrics.dto";
 import { HeadDataDto } from "../../dto/headData.dto";
 import { ActionDto } from "src/dto/actions.dto";
+import { log } from "console";
 
 @Injectable()
 export class FileService {
+  
   connectionStatus: boolean = false;
   user: string= "";
+  jsonData={};
   type: string= "";
   metricsHistory:Array<MetricsDto> = [];
   actionsHistory:Array<ActionDto> = [];
@@ -21,8 +25,14 @@ export class FileService {
   currentData: any;
   firstTime: boolean = true;
   colorManager = new ColorsManager();
-
+  setDataSet(headData: any) {
+    console.log(headData);
+    
+    this.jsonData = headData.dataset =="angular" ?  angularData:marioData;
+    this.currentData = this.getDataset();
+  }
   constructor() {
+    this.jsonData =  JSON.parse(JSON.stringify( marioData));
     this.currentData = this.getDataset();
   }
 
@@ -37,7 +47,7 @@ export class FileService {
     this.version = 0;
     this.taskId = 0;
     this.experimentId = 0;
-    this.currentData = this.getDataset();;
+    this.currentData = this.getDataset();
     this.firstTime = true;
     this.colorManager = new ColorsManager();
     this.user="";
@@ -108,7 +118,7 @@ export class FileService {
   }
 
   getDataset() {
-    return JSON.parse(JSON.stringify(jsonData));
+    return JSON.parse(JSON.stringify( this.jsonData));
   }
   changeSize() {
     const normalDataSet = this.getDataset();

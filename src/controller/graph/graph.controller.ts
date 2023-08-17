@@ -1,4 +1,4 @@
-import { Controller, Get } from '@nestjs/common';
+import { Body, Controller, Get, Post } from '@nestjs/common';
 import { MetricsDto } from '../../dto/metrics.dto';
 import { FileService } from '../../service/file/file.service';
 import { GraphService } from '../../service/graph/graph.service';
@@ -13,6 +13,12 @@ export class GraphController {
     const newData =this.graphService.initAndGetActionData();
     return newData;
   }
+
+  @Post("set-dataset")
+  public async postMetrics(@Body() headData: any) {
+      this.fileService.setDataSet(headData);
+  }
+
 
   @Get("create")
   public async createDataset(){

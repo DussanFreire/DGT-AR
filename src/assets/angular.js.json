@@ -14,13 +14,13 @@
     },
     "filters": [
         {
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "name": "angular.js"
         },
         {
             "color": "#9A183A",
-            "background":"#ffffff",
+            "background":"#000000",
             "name": "grunt"
         },
         {
@@ -40,12 +40,12 @@
         },
         {
             "color": "#9123ac",
-            "background":"#ffffff",
+            "background":"#000000",
             "name": "inline-tag-defs"
         },
         {
-            "color": "#7500ff",
-            "background":"#ffffff",
+            "color": "#0000FF",
+            "background":"#000000",
             "name": "processors"
         },
         {
@@ -60,7 +60,7 @@
         },
         {
             "color": "#E0AD1D",
-            "background":"#ffffff",
+            "background":"#000000",
             "name": "tag-defs"
         },
         {
@@ -69,13 +69,13 @@
             "name": "docs"
         },
         {
-            "color": "#05eaed",
+            "color": "#00FFFF",
             "background":"#000000",
             "name": "spec"
         },
         {
-            "color": "#3A8EEF",
-            "background":"#ffffff",
+            "color": "#007FFF",
+            "background":"#000000",
             "name": "src"
         }
     ],
@@ -83,7 +83,7 @@
     "nodes": [
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 0,
             "links": [],
@@ -102,7 +102,7 @@
                 53,
                 56
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 1,
             "links": [
@@ -149,7 +149,7 @@
                 55
             ],
             "color": "#9A183A",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 2,
             "links": [
                 {
@@ -306,7 +306,7 @@
                 8
             ],
             "color": "#9123ac",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 9,
             "links": [
                 {
@@ -325,8 +325,8 @@
             "childIds": [
                 8
             ],
-            "color": "#7500ff",
-            "background":"#ffffff",
+            "color": "#0000FF",
+            "background":"#000000",
             "id": 10,
             "links": [
                 {
@@ -345,8 +345,8 @@
             "childIds": [
                 8
             ],
-            "color": "#7500ff",
-            "background":"#ffffff",
+            "color": "#0000FF",
+            "background":"#000000",
             "id": 11,
             "links": [
                 {
@@ -365,8 +365,8 @@
             "childIds": [
                 8
             ],
-            "color": "#7500ff",
-            "background":"#ffffff",
+            "color": "#0000FF",
+            "background":"#000000",
             "id": 12,
             "links": [
                 {
@@ -385,8 +385,8 @@
             "childIds": [
                 8
             ],
-            "color": "#7500ff",
-            "background":"#ffffff",
+            "color": "#0000FF",
+            "background":"#000000",
             "id": 13,
             "links": [
                 {
@@ -405,8 +405,8 @@
             "childIds": [
                 8
             ],
-            "color": "#7500ff",
-            "background":"#ffffff",
+            "color": "#0000FF",
+            "background":"#000000",
             "id": 14,
             "links": [
                 {
@@ -425,8 +425,8 @@
             "childIds": [
                 8
             ],
-            "color": "#7500ff",
-            "background":"#ffffff",
+            "color": "#0000FF",
+            "background":"#000000",
             "id": 15,
             "links": [
                 {
@@ -607,7 +607,7 @@
                 29
             ],
             "color": "#E0AD1D",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 24,
             "links": [
                 {
@@ -632,7 +632,7 @@
                 8
             ],
             "color": "#E0AD1D",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 25,
             "links": [
                 {
@@ -652,7 +652,7 @@
                 8
             ],
             "color": "#E0AD1D",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 26,
             "links": [
                 {
@@ -672,7 +672,7 @@
                 8
             ],
             "color": "#E0AD1D",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 27,
             "links": [
                 {
@@ -692,7 +692,7 @@
                 8
             ],
             "color": "#E0AD1D",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 28,
             "links": [
                 {
@@ -710,7 +710,7 @@
         {
             "childIds": [],
             "color": "#E0AD1D",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 29,
             "links": [],
             "name": "tag-defs/deprecated.spec.js",
@@ -749,7 +749,7 @@
                 57,
                 58
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 32,
             "links": [
@@ -777,7 +777,7 @@
         },
         {
             "childIds": [],
-            "color": "#05eaed",
+            "color": "#00FFFF",
             "background":"#000000",
             "id": 33,
             "links": [],
@@ -792,8 +792,8 @@
                 33,
                 39
             ],
-            "color": "#3A8EEF",
-            "background":"#ffffff",
+            "color": "#007FFF",
+            "background":"#000000",
             "id": 34,
             "links": [
                 {
@@ -819,8 +819,8 @@
                 34,
                 37
             ],
-            "color": "#3A8EEF",
-            "background":"#ffffff",
+            "color": "#007FFF",
+            "background":"#000000",
             "id": 35,
             "links": [
                 {
@@ -850,8 +850,8 @@
                 35,
                 38
             ],
-            "color": "#3A8EEF",
-            "background":"#ffffff",
+            "color": "#007FFF",
+            "background":"#000000",
             "id": 36,
             "links": [
                 {
@@ -873,7 +873,7 @@
         },
         {
             "childIds": [],
-            "color": "#05eaed",
+            "color": "#00FFFF",
             "background":"#000000",
             "id": 37,
             "links": [],
@@ -885,7 +885,7 @@
         },
         {
             "childIds": [],
-            "color": "#05eaed",
+            "color": "#00FFFF",
             "background":"#000000",
             "id": 38,
             "links": [],
@@ -897,8 +897,8 @@
         },
         {
             "childIds": [],
-            "color": "#3A8EEF",
-            "background":"#ffffff",
+            "color": "#007FFF",
+            "background":"#000000",
             "id": 39,
             "links": [],
             "name": "src/closureSlurper.js",
@@ -909,7 +909,7 @@
         },
         {
             "childIds": [],
-            "color": "#05eaed",
+            "color": "#00FFFF",
             "background":"#000000",
             "id": 40,
             "links": [],
@@ -924,8 +924,8 @@
                 40,
                 44
             ],
-            "color": "#3A8EEF",
-            "background":"#ffffff",
+            "color": "#007FFF",
+            "background":"#000000",
             "id": 41,
             "links": [
                 {
@@ -947,7 +947,7 @@
         },
         {
             "childIds": [],
-            "color": "#05eaed",
+            "color": "#00FFFF",
             "background":"#000000",
             "id": 42,
             "links": [],
@@ -962,8 +962,8 @@
                 42,
                 44
             ],
-            "color": "#3A8EEF",
-            "background":"#ffffff",
+            "color": "#007FFF",
+            "background":"#000000",
             "id": 43,
             "links": [
                 {
@@ -985,8 +985,8 @@
         },
         {
             "childIds": [],
-            "color": "#3A8EEF",
-            "background":"#ffffff",
+            "color": "#007FFF",
+            "background":"#000000",
             "id": 44,
             "links": [],
             "name": "src/extract.js",
@@ -997,7 +997,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 45,
             "links": [],
@@ -1016,7 +1016,7 @@
                 53,
                 54
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 46,
             "links": [
@@ -1059,7 +1059,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 47,
             "links": [],
@@ -1071,7 +1071,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 48,
             "links": [],
@@ -1087,7 +1087,7 @@
                 50,
                 51
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 49,
             "links": [
@@ -1115,7 +1115,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 50,
             "links": [],
@@ -1127,7 +1127,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 51,
             "links": [],
@@ -1139,7 +1139,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 52,
             "links": [],
@@ -1151,7 +1151,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 53,
             "links": [],
@@ -1163,7 +1163,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 54,
             "links": [],
@@ -1176,7 +1176,7 @@
         {
             "childIds": [],
             "color": "#9A183A",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 55,
             "links": [],
             "name": "grunt/plugins.js",
@@ -1188,7 +1188,7 @@
         {
             "childIds": [],
             "color": "#9A183A",
-            "background":"#ffffff",
+            "background":"#000000",
             "id": 56,
             "links": [],
             "name": "grunt/validate-angular-files.js",
@@ -1199,7 +1199,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 57,
             "links": [],
@@ -1211,7 +1211,7 @@
         },
         {
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "background":"#000000",
             "id": 58,
             "links": [],
