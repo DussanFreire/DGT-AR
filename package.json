@@ -1,5 +1,5 @@
 {
-  "name": "dgt-ar-api",
+  "name": "DGT-AR Bridge API",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -8,11 +8,12 @@
   "main": "dist/main.js",
   "bin": "dist/main.js",
   "pkg": {
-    "scripts": "dist/main.js"
+    "scripts": "dist/main.js",
+    "icon": "./dgt_ar.ico"
   },
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "nest build",
+    "build": "nest build && npx pkg .",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",

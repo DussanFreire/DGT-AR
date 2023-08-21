@@ -44,15 +44,15 @@ export class GraphTaskService {
   }
   
   public  finishExperiment() {
-    const dirRoot = this.getUniqueName('./experiment'+"/"+this.fileService.user + "-" + this.fileService.type);
+    const dirRoot = this.getUniqueName(this.fileService.user + "-" + this.fileService.type);
     
-    this.fs.mkdirSync(dirRoot);
+    this.fs.mkdirSync('../'+dirRoot);
     
     var generalMetrics = JSON.stringify(this.metricsService.getGenneralMetrics());
     var actions = JSON.stringify(this.graphActionsService.getActions());
 
-    this.fs.writeFile(dirRoot+'/metrics.json', generalMetrics, 'utf8' ,(err)=>this.callbackFun(err) );
-    this.fs.writeFile(dirRoot+'/actions.json', actions, 'utf8', (err)=>this.callbackFun(err));
+    this.fs.writeFile('../'+dirRoot+'/metrics.json', generalMetrics, 'utf8' ,(err)=>this.callbackFun(err) );
+    this.fs.writeFile('../'+dirRoot+'/actions.json', actions, 'utf8', (err)=>this.callbackFun(err));
   }
 
   public chageTask(answ: any) {
