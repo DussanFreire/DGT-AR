@@ -3,6 +3,8 @@ import { DependenciesDto, NodeFilterGraph } from "../../dto/dependencies.dto";
 import { ColorsManager } from "../dependencies/ColorsManager";
 import * as  marioData from "../../assets/mario.json";
 import * as angularData from "../../assets/angular.js.json";
+import * as toy1 from "../../assets/toy-dataset1.json";
+import * as toy2 from "../../assets/toy-dataset2.json";
 import { MetricsDto } from "../../dto/metrics.dto";
 import { HeadDataDto } from "../../dto/headData.dto";
 import { ActionDto } from "src/dto/actions.dto";
@@ -27,8 +29,23 @@ export class FileService {
   colorManager = new ColorsManager();
   setDataSet(headData: any) {
     console.log(headData);
-    
-    this.jsonData = headData.dataset =="angular" ?  angularData:marioData;
+    switch (headData.dataset) {
+      case "angular":
+        this.jsonData = angularData;
+        break;
+      case "mario":
+        this.jsonData = marioData;
+        break;
+      case "toy1":
+        this.jsonData = toy1;
+        break;
+      case "toy2":
+        this.jsonData = toy2;
+        break;
+      default:
+        this.jsonData = marioData;
+        break;
+    }
     this.currentData = this.getDataset();
   }
   constructor() {

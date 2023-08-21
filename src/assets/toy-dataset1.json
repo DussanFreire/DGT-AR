@@ -15,27 +15,27 @@
     "filters": [
         {
             "background": "#000000",
-            "color": "#ff1000",
+            "color": "#FF0000",
             "name": "folder-1"
         },
         {
             "background": "#000000",
-            "color": "#FFFF00",
+            "color": "#00FFFF",
             "name": "folder-2"
         },
         {
             "background": "#000000",
-            "color": "#ffffff",
+            "color": "#0000FF",
             "name": "folder-3"
         },
         {
-            "background": "#ffffff",
-            "color": "#3A8EEF",
+            "background": "#000000",
+            "color": "#FFFF00",
             "name": "folder-4"
         },
         {
             "background": "#000000",
-            "color": "#AAFF00",
+            "color": "#007FFF",
             "name": "folder-5"
         }
     ],
@@ -44,7 +44,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 0,
             "links": [],
             "name": "folder-1/file-1.ts",
@@ -62,7 +62,7 @@
                 7,
                 9
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 1,
             "links": [
                 {
@@ -106,7 +106,7 @@
                 17,
                 19
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 2,
             "links": [
                 {
@@ -144,7 +144,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 3,
             "links": [],
             "name": "folder-1/file-4.ts",
@@ -160,7 +160,7 @@
                 23,
                 0
             ],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 4,
             "links": [
                 {
@@ -188,7 +188,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#ff1000",
+            "color": "#FF0000",
             "id": 5,
             "links": [],
             "name": "folder-1/file-6.ts",
@@ -202,7 +202,7 @@
             "childIds": [
                 23
             ],
-            "color": "#FFFF00",
+            "color": "#00FFFF",
             "id": 6,
             "links": [
                 {
@@ -220,7 +220,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#FFFF00",
+            "color": "#00FFFF",
             "id": 7,
             "links": [],
             "name": "folder-2/file-8.ts",
@@ -232,7 +232,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#FFFF00",
+            "color": "#00FFFF",
             "id": 8,
             "links": [],
             "name": "folder-2/file-9.ts",
@@ -246,7 +246,7 @@
             "childIds": [
                 10
             ],
-            "color": "#FFFF00",
+            "color": "#00FFFF",
             "id": 9,
             "links": [
                 {
@@ -264,7 +264,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#ffffff",
+            "color": "#0000FF",
             "id": 10,
             "links": [],
             "name": "folder-3/file-11.ts",
@@ -276,7 +276,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#ffffff",
+            "color": "#0000FF",
             "id": 11,
             "links": [],
             "name": "folder-3/file-12.ts",
@@ -290,7 +290,7 @@
             "childIds": [
                 5
             ],
-            "color": "#ffffff",
+            "color": "#0000FF",
             "id": 12,
             "links": [
                 {
@@ -311,7 +311,7 @@
                 11,
                 19
             ],
-            "color": "#ffffff",
+            "color": "#0000FF",
             "id": 13,
             "links": [
                 {
@@ -334,7 +334,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#ffffff",
+            "color": "#0000FF",
             "id": 14,
             "links": [],
             "name": "folder-3/file-15.ts",
@@ -344,12 +344,12 @@
             "z": 0.2054854457398847
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 5,
                 14
             ],
-            "color": "#3A8EEF",
+            "color": "#FFFF00",
             "id": 15,
             "links": [
                 {
@@ -370,11 +370,11 @@
             "z": 0.5317956747744578
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 4
             ],
-            "color": "#3A8EEF",
+            "color": "#FFFF00",
             "id": 16,
             "links": [
                 {
@@ -390,12 +390,12 @@
             "z": -0.2772880044428756
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 7,
                 9
             ],
-            "color": "#3A8EEF",
+            "color": "#FFFF00",
             "id": 17,
             "links": [
                 {
@@ -416,12 +416,12 @@
             "z": 0.035222264327425555
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [
                 7,
                 2
             ],
-            "color": "#3A8EEF",
+            "color": "#FFFF00",
             "id": 18,
             "links": [
                 {
@@ -442,9 +442,9 @@
             "z": -0.4295096224019066
         },
         {
-            "background": "#ffffff",
+            "background": "#000000",
             "childIds": [],
-            "color": "#3A8EEF",
+            "color": "#FFFF00",
             "id": 19,
             "links": [],
             "name": "folder-4/file-20.ts",
@@ -459,7 +459,7 @@
                 11,
                 14
             ],
-            "color": "#AAFF00",
+            "color": "#007FFF",
             "id": 20,
             "links": [
                 {
@@ -482,7 +482,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#AAFF00",
+            "color": "#007FFF",
             "id": 21,
             "links": [],
             "name": "folder-5/file-22.ts",
@@ -498,7 +498,7 @@
                 1,
                 8
             ],
-            "color": "#AAFF00",
+            "color": "#007FFF",
             "id": 22,
             "links": [
                 {
@@ -526,7 +526,7 @@
         {
             "background": "#000000",
             "childIds": [],
-            "color": "#AAFF00",
+            "color": "#007FFF",
             "id": 23,
             "links": [],
             "name": "folder-5/file-24.ts",
@@ -543,7 +543,7 @@
                 9,
                 2
             ],
-            "color": "#AAFF00",
+            "color": "#007FFF",
             "id": 24,
             "links": [
                 {
