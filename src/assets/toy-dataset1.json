@@ -560,11 +560,6 @@
                     "source": 24,
                     "target": 9,
                     "visible": true
-                },
-                {
-                    "source": 24,
-                    "target": 2,
-                    "visible": true
                 }
             ],
             "name": "folder-5/file-25.ts",
