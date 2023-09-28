@@ -1,0 +1,162 @@
+
+{
+    "actions": {
+        "filterUsed": false,
+        "resetUsed": false,
+        "rotateH": false,
+        "rotateV": false,
+        "sizeChanged": false,
+        "xBackward": false,
+        "xForward": false,
+        "yBackward": false,
+        "yForward": false,
+        "zBackward": false,
+        "zForward": false
+    },
+    "filters": [
+        {
+            "background": "#000000",
+            "color": "#ff1000",
+            "name": "folderA"
+        },
+        {
+            "background": "#000000",
+            "color": "#FFFF00",
+            "name": "folderB"
+        },
+        {
+            "background": "#000000",
+            "color": "#3A8EEF",
+            "name": "folderC"
+        }
+    ],
+    "graphName": "video-dataset",
+    "nodes": [
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#ff1000",
+            "id": 0,
+            "links": [],
+            "name": "folderA/file1.ts",
+            "visible": true,
+            "x": -0.21575911411010762,
+            "y": -1.0,
+            "z": 0.04433421757853379
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                0,
+                3
+            ],
+            "color": "#ff1000",
+            "id": 1,
+            "links": [
+                {
+                    "source": 1,
+                    "target": 0,
+                    "visible": true
+                },
+                {
+                    "source": 1,
+                    "target": 3,
+                    "visible": true
+                }
+            ],
+            "name": "folderA/file2.ts",
+            "visible": true,
+            "x": 0.10621613326133876,
+            "y": -0.29614259607096177,
+            "z": 0.1419084337729649
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                0,
+                3
+            ],
+            "color": "#ff1000",
+            "id": 2,
+            "links": [
+                {
+                    "source": 2,
+                    "target": 0,
+                    "visible": true
+                },
+                {
+                    "source": 2,
+                    "target": 3,
+                    "visible": true
+                }
+            ],
+            "name": "folderA/file3.ts",
+            "visible": true,
+            "x": -0.19834280818146152,
+            "y": -0.23016587122762888,
+            "z": 0.10450537905754811
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                5
+            ],
+            "color": "#FFFF00",
+            "id": 3,
+            "links": [
+                {
+                    "source": 3,
+                    "target": 5,
+                    "visible": true
+                }
+            ],
+            "name": "folderB/file4.ts",
+            "visible": true,
+            "x": 0.13523951186800087,
+            "y": 0.52992929441558,
+            "z": 0.1410697711971355
+        },
+        {
+            "background": "#000000",
+            "childIds": [
+                3
+            ],
+            "color": "#FFFF00",
+            "id": 4,
+            "links": [
+                {
+                    "source": 4,
+                    "target": 3,
+                    "visible": true
+                }
+            ],
+            "name": "folderB/file5.ts",
+            "visible": true,
+            "x": -0.4341295536023966,
+            "y": 0.36864107530474194,
+            "z": -0.18357306030434883
+        },
+        {
+            "background": "#000000",
+            "childIds": [],
+            "color": "#3A8EEF",
+            "id": 5,
+            "links": [],
+            "name": "folderC/file6.ts",
+            "visible": true,
+            "x": 0.6067758307646258,
+            "y": 0.6277380975782687,
+            "z": -0.24824474130183324
+        }
+    ],
+    "size": 0.35,
+    "taskId": 0,
+    "tasks": [
+        "¿Cuáles son los files que podrían ser afectados de forma directa si se realiza algún cambio en el file 'folderA/converter.js'?",
+        "¿Cuáles son los files dentro la categoría de files de la folder 'folderA' que tienen alguna relación con files dentro la folder 'scec'?",
+        "¿Cuáles son los 3 nodos que ha simple vista tienen mayor numero de dependencias'?",
+        "¿Cuál es la folder que tiene la menor cantidad de files dentro del proyecto?",
+        "¿Cuáles son los nodos que no dependen de ningún otro en la folder 'folderCs'?"
+    ],
+    "version": 0
+}
